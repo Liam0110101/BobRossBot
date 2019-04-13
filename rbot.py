@@ -20,10 +20,10 @@ def bot():
     print("Logging in...")
 
     reddit = praw.Reddit(user_agent='Bob Ross Bot v0.1',
-                         client_id='mKkUYj3Ms9Cwfw',
-                         client_secret='scnLMlK-DBnHQbl8N4FB-HKQvPY',
+                         client_id='',
+                         client_secret='',
                          username='BobRossBot_',
-                         password='6Ep96ck9')
+                         password='')
     print("Welcome BobRossBot_ :)")
     print("Started: " + str(now))
     print("Loading quotes...")
